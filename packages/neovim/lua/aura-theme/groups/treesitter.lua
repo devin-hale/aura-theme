@@ -76,7 +76,7 @@ local function createTreeSitterGroup(palette, aura)
 
     --LSP Semantic Token Groups
     ["@lsp.type.variable"] = {fg = palette.white},
-    [" @lsp.type.interface"] = aura.Blue,
+    ["@lsp.type.interface"] = aura.Blue,
     
 
   }
