@@ -81,6 +81,8 @@ local function createEditorGroup(palette, aura)
     Italic = { gui = "italic" },
     Error = { fg = palette.red, gui = "bold,underline" },
     Todo = { fg = palette.green, gui = "bold,italic" },
+
+    RainbowDelimiterYellow = aura.White
   }
 end
 
