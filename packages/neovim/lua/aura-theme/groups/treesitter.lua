@@ -74,9 +74,9 @@ local function createTreeSitterGroup(palette, aura)
     ["@text.warning"] = { fg = palette.orange, gui = "bold,underline" },
     ["@variable"] = {fg = palette.white},
 
-    --LSP Semantic Token Groups
-    ['@lsp.type.namespace'] = '@namespace',
+    --LSP Semantic Token Group
     ['@lsp.type.type'] = '@type',
+    ['@lsp.type.namespace'] = '@namespace',
     ['@lsp.type.class'] = '@type',
     ['@lsp.type.enum'] = '@type',
     ['@lsp.type.interface'] = '@type',
