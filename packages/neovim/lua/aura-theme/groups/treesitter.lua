@@ -28,7 +28,7 @@ local function createTreeSitterGroup(palette, aura)
     ["@label"] = aura.Purple,
     ["@method.call"] = aura.Orange,
     ["@method"] = aura.OrangeBold,
-    ["@namespace"] = {fg = palette.white},
+    ["@namespace"] = aura.Orange,
     ["@none"] = {},
     ["@number"] = aura.Green,
     ["@operator"] = aura.Purple,
