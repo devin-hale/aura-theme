@@ -90,7 +90,8 @@ local function createTreeSitterGroup(palette, aura)
     ['@lsp.type.macro'] = '@macro',
     ['@lsp.type.decorator'] = '@function',
     ['@lsp.typemod.namespace'] = aura.Orange,
-    ['@lsp.type.keyword'] = aura.Purple
+    ['@lsp.type.keyword'] = aura.Purple,
+    ['@lsp.typemod.constantName.static'] = aura.Pink,
     
 
   }
